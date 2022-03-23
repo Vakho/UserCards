@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Slab:wght@300&family=Roboto:wght@700&display=swap");
+.card {
+  background-color: #fee36e;
+  display: flex;
+  flex-direction: column;
+  border: 2px #f16775 solid;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Roboto Slab", serif;
+  width: 280px;
+  gap: 2px;
+
+  h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin: 5px;
+  }
+  button {
+    width: 80px;
+    background-color: #932432;
+    border-radius: 5px;
+    color: aliceblue;
+    pointer-events: none;
+  }
+}

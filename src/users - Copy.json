@@ -1,0 +1,28 @@
+{
+	"users":[
+		{
+			"id": 1,
+			"name": "Vakho",
+		    "lastName": "Nozadze",
+		    "about": "Nothing special...",
+		    "birthDate": "1993-03-28T19:08:23.540Z",
+		    "status": "Active"
+		},
+			{
+			"id": 2,
+			"name": "Ilia",
+		    "lastName": "Nozadze",
+		    "about": "Hiking, backpacking and lot...",
+		    "birthDate": "1997-05-22T19:08:23.540Z",
+		    "status": "Inactive"
+		},
+		{
+			"id": 3,
+			"name": "Volodymyr ",
+		    "lastName": "Zelenskyy",
+		    "about": "Just google it",
+		    "birthDate": "1978-05-22T19:08:23.540Z",
+		    "status": "Deleted"
+		}
+	]
+}

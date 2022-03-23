@@ -1,0 +1,12 @@
+<section
+  class="card"
+  [ngStyle]="{ 'background-color': setBackgroundColor(user.status) }"
+  appChangeBackground
+>
+  <h3>{{ user.name }} {{ user.lastName }}</h3>
+  <p>{{ user.about }}</p>
+  <p>{{ user.birthDate | timeSpan }}</p>
+  <button [ngStyle]="{ 'background-color': setBackgroundColor(user.status) }">
+    {{ user.status }}
+  </button>
+</section>
